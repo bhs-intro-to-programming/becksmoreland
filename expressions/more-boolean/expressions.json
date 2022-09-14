@@ -89,5 +89,12 @@
     "answer": "comingtobook = member && !outSick",
     "correct": true,
     "timestamp": 1663192622137
+  },
+  {
+    "name": "Ready for some football?",
+    "canonical": "fast && strong",
+    "answer": "fast && strong",
+    "correct": true,
+    "timestamp": 1663192650104
   }
 ]
