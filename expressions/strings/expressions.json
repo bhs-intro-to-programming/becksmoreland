@@ -12,5 +12,12 @@
     "answer": "s.substring(0, 3).toUpperCase() + s.substring(3).toLowerCase()",
     "correct": true,
     "timestamp": 1663280093892
+  },
+  {
+    "name": "Last three",
+    "canonical": "s.substring(s.length - 3)",
+    "answer": "s.substring(s.length - 3)",
+    "correct": true,
+    "timestamp": 1663280171835
   }
 ]
