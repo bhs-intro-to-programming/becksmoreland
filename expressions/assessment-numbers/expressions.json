@@ -75,5 +75,12 @@
     "answer": "\tMath.abs(x1 - x2) + Math.abs(y1 - y2)",
     "correct": true,
     "timestamp": 1663280617377
+  },
+  {
+    "name": "Difference",
+    "canonical": "a - b",
+    "answer": "a - b",
+    "correct": true,
+    "timestamp": 1663280629648
   }
 ]
