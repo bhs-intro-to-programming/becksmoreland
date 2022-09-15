@@ -54,5 +54,12 @@
     "answer": "inTheClass || isProctor",
     "correct": true,
     "timestamp": 1663194401707
+  },
+  {
+    "name": "Not feeling it?",
+    "canonical": "!fun || tired",
+    "answer": "!fun || tired",
+    "correct": true,
+    "timestamp": 1663277783882
   }
 ]
