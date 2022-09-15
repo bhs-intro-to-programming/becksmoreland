@@ -68,5 +68,12 @@
     "answer": "s.length",
     "correct": true,
     "timestamp": 1663280247835
+  },
+  {
+    "name": "First character",
+    "canonical": "s[0]",
+    "answer": "s[0]",
+    "correct": true,
+    "timestamp": 1663280256099
   }
 ]
