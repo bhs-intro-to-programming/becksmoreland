@@ -32,9 +32,3 @@ const eatsNuts = (isRed, isSpotted) => isRed || !isSpotted;
 const eatsFish = (isRed, isSpotted) => !isRed || isSpotted;
 
 const eatsMice = (isRed, isSpotted) => !isRed || !isSpotted;
-
-if ('Flobby', 'Bloggy') {
-  return 'True'
-} else {
-  return 'False'
-}
