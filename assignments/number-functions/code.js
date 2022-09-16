@@ -11,3 +11,5 @@ const mod = (a, b) => a % b;
 const averageOfTwo = (a, b) => (a + b) / 2;
 
 const averageOfThree = (a, b, c) => (a + b + c) / 3;
+
+const distance = (a, b) => Math.abs(a - b)
