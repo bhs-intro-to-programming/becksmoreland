@@ -33,4 +33,4 @@ const eatsFish = (isRed, isSpotted) => !isRed || isSpotted;
 
 const eatsMice = (isRed, isSpotted) => !isRed || !isSpotted;
 
-const isREd = ('Flobby', 'Bloggy', 'Flibble', 'Globby') => 
+const isRed = ('Flobby', 'Bloggy') => True
