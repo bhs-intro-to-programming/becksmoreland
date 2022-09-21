@@ -35,5 +35,5 @@
 const myWord = 'Computer';
 
 const pigLatin = (myWord) => {
-  myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
+ return myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
 }
