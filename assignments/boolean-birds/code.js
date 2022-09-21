@@ -36,4 +36,7 @@ const eatsMice = (isRed, isSpotted) => !isRed || !isSpotted;
 const isRed = (bird) => bird === "Flobby" || bird === "Bloggy";
 
 const isSpotted = (bird) => bird === "Flobby" || bird === "Flibble";
+
 const isNotRed = (bird) => bird === "Flibble" || bird === "Globby";
+
+const isNotSpotted = (bird) => bird === "Bloggy" || bird === "Globby";
