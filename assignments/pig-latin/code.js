@@ -34,15 +34,17 @@
 
 const myWord = 'Computer';
 
+const myWordVowel = myWord.search(/[aeiou]/);
+
 const pigLatin = (myWord) => {
  return myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
 }
 
 const advancedPigLatin = (myWord) => {
-   return myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay'
-   
-   if myWord.search(/[aeiou]/) === 0 => {
-     return 
-   }
+  if myWordVowel === 0 => {
+    return myWord + 'way'
+  } else {
+    return myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
+  }
 }
  
