@@ -31,3 +31,9 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+let myWord = 'Computer'
+
+const pigLatin = (myWord) => {
+  myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + myWord.substring(myWord.length - 1)
+}
