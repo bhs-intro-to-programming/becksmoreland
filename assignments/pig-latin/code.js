@@ -43,4 +43,5 @@ const pigLatin = (myWord) => {
 const advancedPigLatin = (myWord) => {
  return myWord.search(/[aeiou]/) === 0 ? myWord + 'way' : myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
 }
- 
+// Dont really know how to execute pigLatin by itself instead of rewriting code //
+
