@@ -31,3 +31,17 @@
 //
 // Feel free to play around in the REPL to make sure you understand how this
 // operator works.
+
+const myWord = 'Computer';
+
+const myWordVowel = myWord.search(/[aeiou]/);
+
+const pigLatin = (myWord) => {
+ return myWord.substring(myWord.search(/[aeiou]/)) + myWord.substring(0, myWord.search(/[aeiou]/)) + 'ay';
+}
+
+const advancedPigLatin = (myWord) => {
+ return myWord.search(/[aeiou]/) === 0 ? myWord + 'way' : pigLatin(myWord);
+}
+// Dont really know how to execute pigLatin by itself instead of rewriting code //
+
