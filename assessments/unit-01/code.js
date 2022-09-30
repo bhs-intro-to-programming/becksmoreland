@@ -42,11 +42,14 @@ const getsSpeedingTicket = (mphDriving, isGrouchy) => {
 const moreThanTwiceAsLong = (string1, string2) => {
     return string1.length > string2.length * 2;
 }
-const aFartherThanB = (number1, number2, number3) => {
-  return Math.abs(number1 - number3) > Math.abs(number2 - number3);
+const aFartherThanB = (numberA, numberB, numberC) => {
+  return Math.abs(numberA - numberC) > Math.abs(numberB - numberC);
 }
 
 const firstHalf = (string) => {
   return string.substring(0, Math.floor(string.length / 2));
 }
 
+const secondHalf = (string) => {
+  return string.substring (Math.floor(string.length / 2) - 1, string.length);
+}
