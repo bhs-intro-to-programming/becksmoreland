@@ -24,7 +24,7 @@ const numCircles = (radius, width) => {
 }
 
 const offset = (widthPixels, figureWidth) => {
-  return (widthPixels - figureWidth)  ;
+  return (widthPixels - figureWidth) / 2;
 }
 
 const canSleepIn = (isWeekday, onVacation) => {
@@ -56,4 +56,9 @@ const secondHalf = (string) => {
 
 const upDown = (string) => {
   return string.toUpperCase() + string;
+}
+
+const everyOther = (string) {
+  for (x = 1, string.length() , x++ ) {
+    string[string]
 }
