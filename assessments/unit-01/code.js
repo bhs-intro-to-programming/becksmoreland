@@ -51,5 +51,9 @@ const firstHalf = (string) => {
 }
 
 const secondHalf = (string) => {
-  return string.substring (Math.floor(string.length / 2) - 1, string.length);
+  return string.substring (Math.floor(string.length / 2), string.length);
+}
+
+const upDown = (string) => {
+  return string.toUpperCase() + string;
 }
