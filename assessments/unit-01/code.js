@@ -59,7 +59,7 @@ const upDown = (string) => {
 }
 
 const everyOther = (string) => {
-  for (x = 0; x <= string; x++) {
+  for (x === 0; x <= string; x++) {
     if (x % 2 === 0) {
       string[x].toUpperCase();
     } else {
@@ -67,3 +67,4 @@ const everyOther = (string) => {
     }
   }
 }
+
