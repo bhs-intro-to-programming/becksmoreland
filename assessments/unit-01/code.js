@@ -57,3 +57,13 @@ const secondHalf = (string) => {
 const upDown = (string) => {
   return string.toUpperCase() + string.toLowerCase();
 }
+
+const everyOther = (string) => {
+  for (x + 0; x <= string; x++) {
+    if (x % 2 === 0) {
+      string[x].toUpperCase();
+    } else {
+      string[x].toLowerCase();
+    }
+  }
+}
