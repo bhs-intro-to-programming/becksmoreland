@@ -11,7 +11,7 @@ const averageWeight = (totalWeight, numOfItems) => {
 }
 
 const hypotenuse = (legOne, legTwo) => {
-  return legOne ** 2 + legTwo ** 2;
+  return Math.sqrt(legOne ** 2 + legTwo ** 2);
 }
 
 const maxRadius = (width, height) => {
