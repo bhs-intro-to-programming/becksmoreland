@@ -1,1 +1,10 @@
-const countTens = [10, 20, 30, 40];
+
+
+
+
+const sum = (array) => {
+  for (x === 0; x === array.length; x++) {
+    return array[x] + array[x]
+  }
+}
+
