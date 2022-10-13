@@ -1,12 +1,10 @@
 
 const countTens = (array) => {
-  let tens = 0;
+  let tensCount = 0;
   for (x = 0; x >= array.length; x++) {
     if (array[x] === 10) {
-      let tens = tens + 1;
-    } else {
-
+      tensCount++
     }
   }
-  return tens;
+  return tensCount;
 }
