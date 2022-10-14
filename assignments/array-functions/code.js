@@ -34,3 +34,7 @@ const anyOverOneHundred = (array) => {
   }
   return false;
 }
+
+const pyramid = (integer) => {
+  
+}
