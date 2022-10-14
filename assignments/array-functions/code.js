@@ -27,8 +27,7 @@ const evens = (array) => {
 }
 
 const anyOverOneHundred = (array) => {
-  let finalAnswer = null;
   for (let x = 0; array[x] < 100; x++) {
-    return True;
+    return 'True';
   }
 }
