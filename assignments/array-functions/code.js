@@ -31,7 +31,7 @@ const anyOverOneHundred = (array) => {
     if (array[x] > 100) {
       return array[x] > 100;
     } else {
-      return array[x] > 100;
+      return !array[x] > 100;
     }
   }
 }
