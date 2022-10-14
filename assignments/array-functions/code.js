@@ -32,4 +32,5 @@ const anyOverOneHundred = (array) => {
       return array[x] > 100;
     } 
   }
+  return false;
 }
