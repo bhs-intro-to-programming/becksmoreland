@@ -37,7 +37,7 @@ const anyOverOneHundred = (array) => {
 
 const pyramid = (integer) => {
   let newArray = []
-  for (let x = integer; x > 0; x--) {
+  for (let x = integer; x >= 0; x--) {
     newArray.push(integer - x) * 2
   }
   return newArray;
