@@ -9,12 +9,13 @@ let currentBoard = [
     []
     []
     []
-  ]
+]
+
+drawLine(width / 3, height / 3, 'black');
 
 
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
-
 });
 
 registerOnclick((x, y) => {
