@@ -7,9 +7,9 @@
 
 let currentBoard = {
   [
-    []
-    []
-    []
+    [0]
+    [0]
+    [0]
   ]
 }
 registerOnclick((x, y) => {
