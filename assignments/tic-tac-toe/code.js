@@ -5,10 +5,17 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+let currentBoard = [
+  []
+  []
+  []
+]
+
 registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
+
 });
 
 registerOnclick((x, y) => {
-  drawText('O', x, y, 'blac', Math.min(width, height) * 0.3);
+  drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
 });
