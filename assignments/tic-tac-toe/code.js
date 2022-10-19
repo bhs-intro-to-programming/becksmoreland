@@ -6,9 +6,9 @@
 // weeks but for now you can just adapt this code.
 
 let currentBoard = [
-    [0]
-    [0]
-    [0]
+    []
+    []
+    []
   ]
 
 
