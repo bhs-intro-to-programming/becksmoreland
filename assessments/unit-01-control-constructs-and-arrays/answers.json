@@ -1,4 +1,6 @@
 [
   "Yes",
-  "Just bar"
+  "Just bar",
+  null,
+  "i < 10"
 ]
