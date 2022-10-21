@@ -8,7 +8,7 @@
 drawLine(width / 3, height / 3, 'black');
 
 for(let i = 0; i < 9; i++) {
-  if ((i + 2) % === 0) {
+  if ((i + 2) % = 0) {
     registerOnclick((x, y) => {
   drawText('X', x, y, 'black', Math.min(width, height) * 0.3);
 });
