@@ -20,3 +20,5 @@ const ticTacToe = () => {
   }
 }
 
+ticTacToe();
+
