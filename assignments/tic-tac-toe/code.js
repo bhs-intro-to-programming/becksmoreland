@@ -12,6 +12,8 @@ const ticTacToe = () => {
       registerOnclick((x, y) => {
         drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
         currentTurn = currentTurn++;
+      } else {
+        
       }
       )};
   }
