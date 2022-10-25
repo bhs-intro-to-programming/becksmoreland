@@ -13,8 +13,8 @@ const ticTacToe = () => {
         drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
         currentTurn = currentTurn++;
       }
-    });
-  })
+      )};
+  }
 };
 
 let currentTurn = 0;
