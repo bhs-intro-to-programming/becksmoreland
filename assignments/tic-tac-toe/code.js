@@ -5,12 +5,22 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+const keepTrack = () => {
+  for (let x = 0; x < 9; x++) {
+    if ((x + 2) % 2 = 0) {
+      playerOne = 'X'
+    } else {
+      playerOne = 'O'
+    }
+  }
+}
+
 let playerOne = 'X';
 
-let playerTwo = 'O';
+
 
 registerOnclick((x, y) => {
-  drawText(playerOne, x, y, 'blue', Math.min(width, height) * 0.3);
+  drawText(player, x, y, 'blue', Math.min(width, height) * 0.3);
   //currentTurn = currentTurn++;
 });
 
