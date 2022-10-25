@@ -9,7 +9,7 @@
 
 registerOnclick((x, y) => {
         drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
-}
+});
 
 let currentTurn = 0;
 
