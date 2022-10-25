@@ -5,8 +5,12 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+let playerOne = 'X';
+
+let playerTwo = 'O';
+
 registerOnclick((x, y) => {
-  drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
+  drawText(playerOne, x, y, 'blue', Math.min(width, height) * 0.3);
   //currentTurn = currentTurn++;
 });
 
