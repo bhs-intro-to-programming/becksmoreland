@@ -7,7 +7,7 @@
 
 const keepTrack = () => {
   for (let x = 0; x < 9; x++) {
-    if ((x + 2) % 2 = 0) {
+    if ((x + 2) % 2 === 0) {
       playerOne = 'X'
     } else {
       playerOne = 'O'
