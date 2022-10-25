@@ -13,7 +13,7 @@ registerOnclick((x, y) => {
 ticTacToe();
 
 const currentPos = [
-  [x],
-  [x],
-  [x],
-];
+  [],
+  [],
+  [],
+]; 
