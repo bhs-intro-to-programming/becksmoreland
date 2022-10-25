@@ -6,19 +6,14 @@
 // weeks but for now you can just adapt this code.
 
 
-const ticTacToe = () => {
-  for (let i = 0; i < 9; i++) {
-    if (i + 2 % 2 === 0) {
-      registerOnclick((x, y) => {
-        drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
-      });
-    } else {
-      registerOnclick((x, y) => {
+
+registerOnclick((x, y) => {
         drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
-      });
-    }
-  }
-}
 
 ticTacToe();
 
+const currentPos = [
+  [x],
+  [x],
+  [x],
+];
