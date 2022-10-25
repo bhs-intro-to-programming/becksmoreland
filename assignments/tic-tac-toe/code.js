@@ -5,15 +5,16 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+registerOnclick((x, y) => {
+  drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
+  //currentTurn = currentTurn++;
+});
 
 const ticTacToe = () => {
   let currentTurn = 0;
   for (let x = 0; x < 9; x++) {
     if ((currentTurn + 2) % 2 === 0) {
-      registerOnclick((x, y) => {
-        drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
-        currentTurn = currentTurn++;
-      });
+
     } else {
       registerOnclick((x, y) => {
         drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
