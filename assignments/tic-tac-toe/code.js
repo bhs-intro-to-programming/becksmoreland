@@ -14,8 +14,9 @@ const ticTacToe = () => {
         currentTurn = currentTurn++;
       }
     });
-  }
+  })
 };
+
 let currentTurn = 0;
 
 
