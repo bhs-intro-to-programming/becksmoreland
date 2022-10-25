@@ -20,7 +20,7 @@ let playerOne = 'X';
 
 
 registerOnclick((x, y) => {
-  drawText(player, x, y, 'blue', Math.min(width, height) * 0.3);
+  drawText(playerOne, x, y, 'blue', Math.min(width, height) * 0.3);
   //currentTurn = currentTurn++;
 });
 
