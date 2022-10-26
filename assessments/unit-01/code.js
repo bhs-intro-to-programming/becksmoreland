@@ -80,3 +80,12 @@ const yesIfEven = (number) => {
   }
 }
 
+const countXs = (string) => {
+  let amountOfX = 0;
+  for (let x = 0; x < string.length; x++) {
+    if (string[x] === 'x') {
+      amountOfX = amountOfX + 1;
+    }
+  }
+  return amountOfX;
+}
