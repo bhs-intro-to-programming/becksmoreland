@@ -95,3 +95,11 @@ const timesTable  = (number) => {
     emit(number - x, number - x, (number - x) * (number - x));
   }
 }
+
+const sumSquares = (number) => {
+  const total = 0;
+  for (let x = 0; x < number; x++) {
+    total = total + ((number - x)) ** 2);
+  }
+  return total;
+}
