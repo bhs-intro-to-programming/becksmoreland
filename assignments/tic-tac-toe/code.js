@@ -23,7 +23,7 @@ const keepTrack = () => {
 
 registerOnclick((x, y) => {
   drawText(playerOne, x, y, 'blue', Math.min(width, height) * 0.3);
-  //currentTurn = currentTurn++;
+  keepTrack()
 });
 
 const ticTacToe = () => {
