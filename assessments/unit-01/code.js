@@ -91,7 +91,7 @@ const countXs = (string) => {
 }
 
 const timesTable  = (number) => {
-  for (let x = 1; x < number + 1; x++) {
+  for (let x = 1; x < number - 1; x++) {
     emit(number - x, number - x, (number - x) * (number - x));
   }
 }
