@@ -5,6 +5,8 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+let playerOne = 'X';
+
 const keepTrack = () => {
   for (let x = 0; x < 9; x++) {
     if ((x + 2) % 2 === 0) {
@@ -15,7 +17,7 @@ const keepTrack = () => {
   }
 }
 
-let playerOne = 'X';
+
 
 
 
