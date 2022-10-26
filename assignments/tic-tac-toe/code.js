@@ -5,7 +5,7 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
-let playerOne = 'X';
+let playerOne = 'O';
 
 const keepTrack = () => {
   for (let x = 0; x < 9; x++) {
