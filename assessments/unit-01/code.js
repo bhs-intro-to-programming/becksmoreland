@@ -97,7 +97,7 @@ const timesTable  = (number) => {
 }
 
 const sumSquares = (number) => {
-  const total = 0;
+  let total = 0;
   for (let x = 0; x < number; x++) {
     total = total + ((number - x) ** 2);
   }
