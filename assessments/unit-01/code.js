@@ -72,3 +72,11 @@ const upDownLastCharacter = (string) => {
   return string[string.length - 1].toUpperCase() + string[string.length - 1].toLowerCase();
 }
 
+const yesIfEven = (number) => {
+  if ((number + 2) % 2 === 0) {
+    return 'yes';
+  } else {
+    return 'no'
+  }
+}
+
