@@ -20,5 +20,5 @@ const simplePigLatin = (string, number) => {
 }
 
 const isAllUpperCase = (string) => {
-  return string.toUpperCase === string;
+  return string.toUpperCase() === string;
 }
