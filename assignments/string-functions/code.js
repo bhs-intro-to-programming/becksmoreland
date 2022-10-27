@@ -34,3 +34,5 @@ const firstHalf = (string) => {
 const secondHalf = (string) => {
   return string.substring(string.length / 2);
 }
+
+const upDown
