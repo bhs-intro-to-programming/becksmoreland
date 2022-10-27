@@ -1,3 +1,7 @@
+const indexing = (string, string2) => {
+  string.indexOf(string2);
+}
+ 
 const findFnord = (string) => {
   return string.indexOf("fnord");
 }
