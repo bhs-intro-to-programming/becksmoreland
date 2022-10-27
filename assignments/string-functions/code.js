@@ -53,3 +53,7 @@ const concatenate = (string, string2) => {
 const firstCharacter = (string) => {
   return string[0];
 }
+
+const lastCharacter = (string) => {
+  return string[string.length - 1];
+}
