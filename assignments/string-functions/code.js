@@ -49,3 +49,7 @@ const lastName = (string) => {
 const concatenate = (string, string2) => {
   return string + string2;
 }
+
+const firstCharacter = (string) => {
+  return string[0];
+}
