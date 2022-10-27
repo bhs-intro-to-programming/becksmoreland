@@ -4,5 +4,5 @@ const findFnord = (string) => {
 
 const stringContains = (string1, string2) => {
   let containsSame = '';
-  return containsSame === string1.indexOf(string2);
+  return containsSame === string2.indexOf(string1);
 }
