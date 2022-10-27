@@ -45,3 +45,7 @@ const firstName = (string) => {
 const lastName = (string) => {
   return string.substring(string.indexOf(' ') + 1)
 }
+
+const concatenate = (string, string2) => {
+  return string + string2;
+}
