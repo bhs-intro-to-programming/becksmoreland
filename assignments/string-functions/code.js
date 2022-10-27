@@ -71,5 +71,5 @@ const allButFirstAndList = (string) => {
 }
 
 const lastThree = (string) => {
-  return string.substring(string.length - 4)
+  return string.substring(string.length - 3)
 }
