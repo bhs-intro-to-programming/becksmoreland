@@ -7,7 +7,6 @@ const findFnord = (string) => {
 }
 
 const stringContains = (string1, string2) => {
-  let containsSame = '';
   return string2 === string1.substring(string1.indexOf(string2));
 }
 
@@ -39,3 +38,6 @@ const secondHalf = (string) => {
   return string.substring(string.length / 2);
 }
 
+const firstName = (string) => {
+  return string.substring(0, string.indexOf(' '))
+}
