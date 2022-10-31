@@ -3,7 +3,7 @@ const indexing = (string, string2) => {
 }
  
 const findFnord = (string) => {
-  return string.indexOf(""fnord"");
+  return string.indexOf("fnord");
 }
 
 const stringContains = (string1, string2) => {
