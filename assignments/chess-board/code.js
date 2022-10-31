@@ -48,6 +48,10 @@ const bKnight = (space) => {
     drawText(BLACK_KNIGHT, width/2 - space, height/2 - 75, 'black', 64)
 }
 
+const bRook = (space) => {
+    drawText(BLACK_ROOK, width/2 - space, height/2 - 75, 'black', 64)
+}
+
 const chessBoard = [
   [bRook(200)], [bKnight(150)], [bBishop(100)], [bQueen(50)], [bKing()], [bBishop(- 50)], [bKnight(- 100)], [bRook(-150)],
   [], [], [], [], [], [], [], [],
