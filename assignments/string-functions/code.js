@@ -42,6 +42,9 @@ const upDown = (string) => {
   return string.toUpperCase() + string.toLowerCase();
 }
 
+const everyOther = (string) => {
+  string[0] + string [2] + string [4];
+}
 
 const firstName = (string) => {
   return string.substring(0, string.indexOf(' '))
