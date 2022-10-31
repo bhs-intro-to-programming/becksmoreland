@@ -14,5 +14,19 @@ const BLACK_PAWN   = '♟';
 // Example of drawing one of the pieces
 const wKing = () => {
   drawText(WHITE_KING, width/2, height/2, 'black', 64);
-
 }
+
+const wQueen = () => {
+   drawText(WHITE_QUEEN, width/2, height/2, 'black', 64);
+}
+
+const chessBoard = [
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [], [], [], [], [], [], [], [],
+  [wRook()], [wKnight()], [wBishop()], [wQueen()], [wKing()], [wBishop()], [wKnight()], [wRook()],
+]
