@@ -25,7 +25,7 @@ const wRook = (space) => {
 }
 
 const wKnight = (space) => {
-  drawText(WHITE_KNIGHT, width/2 - 150, height/2, 'black', 64);
+  drawText(WHITE_KNIGHT, width/2 - space, height/2, 'black', 64);
 }
 
 const wBishop = (space) => {
@@ -40,7 +40,7 @@ const chessBoard = [
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
-  [wRook()], [wKnight()], [wBishop(100)], [wQueen()], [wKing()], [wBishop()], [wKnight()], [wRook()],
+  [wRook()], [wKnight(150)], [wBishop(100)], [wQueen()], [wKing()], [wBishop()], [wKnight()], [wRook()],
 ]
 
 chessBoard()
