@@ -38,6 +38,12 @@ const secondHalf = (string) => {
   return string.substring(string.length / 2);
 }
 
+const upDown = (string) => {
+  return string.toUpperCase() + string.toLowerCase();
+}
+
+const
+
 const firstName = (string) => {
   return string.substring(0, string.indexOf(' '))
 }
