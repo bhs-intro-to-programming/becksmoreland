@@ -36,12 +36,12 @@ const bKing = () => {
   drawText(BLACK_KING, width/2, height/2 - 75, 'black', 64);
 }
 
-const bQueen = () => {
-  drawText(BLACK_QUEEN, width/2, height/2 - 75, 'black', 64)
+const bQueen = (space) => {
+  drawText(BLACK_QUEEN, width/2 - space, height/2 - 75, 'black', 64)
 }
 
 const chessBoard = [
-  [bKing()], [], [], [], [], [], [], [],
+  [bKing()], [bQueen(50)], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
