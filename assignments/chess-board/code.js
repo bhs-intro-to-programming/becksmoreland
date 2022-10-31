@@ -17,7 +17,7 @@ const wKing = () => {
 }
 
 const wQueen = () => {
-   drawText(WHITE_QUEEN, width/2, height/2, 'black', 64);
+   drawText(WHITE_QUEEN, width/2, height/2 - 50, 'black', 64);
 }
 
 const wRook = () => {
