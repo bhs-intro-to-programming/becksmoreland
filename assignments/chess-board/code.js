@@ -25,7 +25,7 @@ const wRook = () => {
 }
 
 const wKnight = () => {
-  drawText(WHITE_KNIGHT, width/2, height/2, 'black', 64);
+  drawText(WHITE_KNIGHT, width/2 - 100, height/2, 'black', 64);
 }
 
 const wBishop = () => {
