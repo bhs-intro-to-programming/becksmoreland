@@ -13,19 +13,19 @@ const BLACK_PAWN   = '♟';
 
 // Example of drawing one of the pieces
 const wKing = (space) => {
-  drawText(WHITE_KING, width/2, height/2, 'black', 64);
+  drawText(WHITE_KING, width/2, height/2 + 100, 'black', 64);
 }
 
 const wQueen = (space) => {
-   drawText(WHITE_QUEEN, width/2 - space, height/2, 'black', 64);
+   drawText(WHITE_QUEEN, width/2 - space, height/2 + 100, 'black', 64);
 }
 
 const wRook = (space) => {
-   drawText(WHITE_ROOK, width/2 - space, height/2 , 'black', 64);
+   drawText(WHITE_ROOK, width/2 - space, height/2 + 100, 'black', 64);
 }
 
 const wKnight = (space) => {
-  drawText(WHITE_KNIGHT, width/2 - space, height/2, 'black', 64);
+  drawText(WHITE_KNIGHT, width/2 - space, height/2 + 100, 'black', 64);
 }
 
 const wBishop = (space) => {
