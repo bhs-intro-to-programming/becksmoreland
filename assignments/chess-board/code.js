@@ -40,7 +40,7 @@ const chessBoard = [
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
-  [wRook(200)], [wKnight(150)], [wBishop(100)], [wQueen(50)], [wKing()], [wBishop(- 50)], [wKnight( - 100)], [wRook()],
+  [wRook(200)], [wKnight(150)], [wBishop(100)], [wQueen(50)], [wKing()], [wBishop(- 50)], [wKnight( - 100)], [wRook( - 150)],
 ]
 
 chessBoard()
