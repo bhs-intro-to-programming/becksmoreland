@@ -28,6 +28,10 @@ const wKnight = () => {
   drawText(WHITE_KNIGHT, width/2, height/2, 'black', 64);
 }
 
+const wBishop = () => {
+  drawText(WHITE_BISHOP, width/2, height/2, 'black', 64);
+}
+
 const chessBoard = [
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
