@@ -29,7 +29,7 @@ const wKnight = (space) => {
 }
 
 const wBishop = (space) => {
-  drawText(WHITE_BISHOP, width/2 - space, height/2 + 20, 'black', 64);
+  drawText(WHITE_BISHOP, width/2 - space, height/2 + 100, 'black', 64);
 }
 
 const chessBoard = [
