@@ -21,7 +21,7 @@ const wQueen = (space) => {
 }
 
 const wRook = (space) => {
-   drawText(WHITE_ROOK, width/2 - 200, height/2 , 'black', 64);
+   drawText(WHITE_ROOK, width/2 - space, height/2 , 'black', 64);
 }
 
 const wKnight = (space) => {
