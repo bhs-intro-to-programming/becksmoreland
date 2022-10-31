@@ -24,6 +24,10 @@ const wRook = () => {
    drawText(WHITE_ROOK, width/2, height/2, 'black', 64);
 }
 
+const wKnight = () => {
+  drawText(WHITE_KNIGHT, width/2, height/2, 'black', 64);
+}
+
 const chessBoard = [
   [], [], [], [], [], [], [], [],
   [], [], [], [], [], [], [], [],
