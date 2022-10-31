@@ -29,7 +29,7 @@ const wKnight = () => {
 }
 
 const wBishop = () => {
-  drawText(WHITE_BISHOP, width/2 - 5, height/2, 'black', 64);
+  drawText(WHITE_BISHOP, width/2 - 100, height/2, 'black', 64);
 }
 
 const chessBoard = [
