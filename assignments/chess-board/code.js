@@ -12,7 +12,7 @@ const BLACK_KNIGHT = '♞';
 const BLACK_PAWN   = '♟';
 
 // Example of drawing one of the pieces
-const wKing = (space) => {
+const wKing = () => {
   drawText(WHITE_KING, width/2, height/2 + 100, 'black', 64);
 }
 
@@ -30,6 +30,10 @@ const wKnight = (space) => {
 
 const wBishop = (space) => {
   drawText(WHITE_BISHOP, width/2 - space, height/2 + 100, 'black', 64);
+}
+
+const bKing = () => {
+  drawText(BLACK_KING, width/2 - space, height/2 - 100, 'black', 64);
 }
 
 const chessBoard = [
