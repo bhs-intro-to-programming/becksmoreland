@@ -43,7 +43,7 @@ const upDown = (string) => {
 }
 
 const everyOther = (string) => {
-  string[0] + string [2] + string [4];
+  return string[0] + string [2] + string [4];
 }
 
 const firstName = (string) => {
