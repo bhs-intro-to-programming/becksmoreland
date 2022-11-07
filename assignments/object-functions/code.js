@@ -3,5 +3,5 @@ const getX = (object) => {
 }
 
 const point = (x, y) => {
-  return point.x, point.y;
+  return point.x === x, point.y === y;
 }
