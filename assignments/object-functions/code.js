@@ -23,7 +23,7 @@ const midpoint = (pointObject1, pointObject2) => {
 const sumSalaries = (array) => {
   let totalCount = 0;
   for (let x = 0; x < array.length; x++) {
-    totalCount = totalCount + array[x][salary];
+    totalCount = totalCount + array[x]["salary"];
   }
   return totalCount
 }
