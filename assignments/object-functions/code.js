@@ -3,7 +3,7 @@ const getX = (object) => {
 }
 
 const point = (x, y) => {
-  return point.x === x, point.y === y;
+  return {x : x, y : y}
 }
 
 const emptyObject = () => {
