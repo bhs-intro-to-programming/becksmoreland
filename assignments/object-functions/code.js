@@ -3,5 +3,5 @@ const getX = (object) => {
 }
 
 const point = (coordinate1, coordinate2) => {
-  return object.x, object.y;
+  return object.coordinate1;
 }
