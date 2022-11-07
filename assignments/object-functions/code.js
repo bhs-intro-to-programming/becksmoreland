@@ -37,5 +37,3 @@ const newHighScore = (currentScore, array) => {
   }
   return highScore;
 }
-
-const summarizeBooks
