@@ -35,6 +35,7 @@ const newHighScore = (currentScore, array) => {
       return array[x]["score"];
     }
   }
+  return currentScore;
 }
 
 
