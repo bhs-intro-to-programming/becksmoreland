@@ -32,8 +32,10 @@ const newHighScore = (currentScore, array) => {
   let highScore = 0;
   for (let x = 0; x < array; x++) {
     if (currentScore < array[x]["score"]) {
-      highScore = highScore + array[x]["score"];
+      return array[x["score"]];
     }
   }
-  return highScore;
+  return currentScore;
 }
+
+
