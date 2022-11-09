@@ -35,6 +35,7 @@ const newHighScore = (currentScore, array) => {
       newScore = array[x]["score"];
     }
   }
+  return newScore;
 }
 
 const summarizeBooks = (bookArray) => {
