@@ -39,5 +39,11 @@ const newHighScore = (currentScore, array) => {
 }
 
 const summarizeBooks = (bookArray) => {
-  
+  let totalPages = 0;
+  let allTitles = '';
+  for (let x = 0; x < bookArray.length; x++) {
+    totalPages = totalPages + bookArray[x]["pages"];
+    allTitles = allTitles + ',' + bookArray[x]["title"]
+  }
+  return {"titles": allTitles, "pages": totalPages}
 }
