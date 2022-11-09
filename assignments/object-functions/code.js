@@ -32,7 +32,7 @@ const newHighScore = (currentScore, array) => {
   let highScore = 0;
   for (let x = 0; x < array; x++) {
     if (currentScore < array[x]["score"]) {
-      return array[x["score"]];
+      return array[x]["score"];
     }
   }
   return currentScore;
