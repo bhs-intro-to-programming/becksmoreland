@@ -45,5 +45,5 @@ const summarizeBooks = (bookArray) => {
     totalPages = totalPages + bookArray[x]["pages"];
     allTitles = allTitles + ', ' + bookArray[x]["title"]
   }
-  return {"titles": allTitles, "pages": totalPages}
+  return {"titles": [allTitles], "pages": totalPages}
 }
