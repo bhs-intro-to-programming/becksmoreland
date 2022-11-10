@@ -15,8 +15,8 @@ const distance = (pointObject1, pointObject2) => {
 }
 
 const midpoint = (pointObject1, pointObject2) => {
-  let newObject1 = (pointObject1["x"] + pointObject2["x"]) / 2;
-  let newObject2 = (pointObject1["y"] + pointObject2["y"]) / 2;
+  let newObject1 = (pointObject1.x + pointObject2.x) / 2;
+  let newObject2 = (pointObject1.y + pointObject2.y) / 2;
   return {"x" : newObject1, "y" : newObject2};
 }
 
