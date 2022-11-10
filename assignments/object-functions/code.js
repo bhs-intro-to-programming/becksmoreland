@@ -11,7 +11,7 @@ const emptyObject = () => {
 }
 
 const distance = (pointObject1, pointObject2) => {
-  return Math.sqrt((pointObject1["x"] - pointObject2["x"]) ** 2 + (pointObject1["y"] - pointObject2["y"]) ** 2);
+  return Math.sqrt((pointObject1.x - pointObject2.x) ** 2 + (pointObject1["y"] - pointObject2["y"]) ** 2);
 }
 
 const midpoint = (pointObject1, pointObject2) => {
