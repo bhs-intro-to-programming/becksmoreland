@@ -7,7 +7,7 @@ const findFnord = (string) => {
 }
 
 const stringContains = (string1, string2) => {
-  string2 === string1.substring(string1.indexOf(string2), string1.indexOf(string2) + string2.length)
+  return string2 === string1.substring(string1.indexOf(string2), string1.indexOf(string2) + string2.length)
 }
 
 const firstAndLast = (string) => {
