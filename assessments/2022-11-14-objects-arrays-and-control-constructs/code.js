@@ -6,9 +6,15 @@ const area = (rect) => {
 };
 
 const higherPaid = (e1, e2) => {
+  if (e1.salary > e2.salary) {
+    return e1;
+  } else if (e2.salary > e1.salary) {
+    return e2;
+  }
 };
 
 const isSamePoint = (p1, p2) => {
+  
 };
 
 const totalWithTip = (bill, tipPercentage) => {
