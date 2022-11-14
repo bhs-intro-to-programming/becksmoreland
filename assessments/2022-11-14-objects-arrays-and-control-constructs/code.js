@@ -56,4 +56,5 @@ const sums = (n) => {
 };
 
 const rule110 = (cells) => {
+  
 };
