@@ -43,4 +43,4 @@ const ticTacToe = () => {
 
 
 
-drawLine(50, 0, 10, height, 'red');
+drawLine(50, 0, 10, 50, 'red');
