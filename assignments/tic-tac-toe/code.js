@@ -49,4 +49,4 @@ drawLine(150, height / 3 + 50, 500, height / 3 + 50, 'black');
 
 drawLine(width / 3, 0, width / 3, 200, 'black');
 
-drawLine(width / 3 + 200, 0, width / 3 + 200, 200, 'black');
+drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black');
