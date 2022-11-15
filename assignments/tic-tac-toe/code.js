@@ -5,16 +5,16 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
-let playerOne = ['O'];
+let playerOne = {current: 'X'};
 
 const keepTrack = () => {
   for (let x = 0; x < 9; x++) {
     if ((x + 2) % 2 === 0) {
-      playerOne = 'X'
+      playerOne.current === 'O';
     } else {
-      playerOne = 'O'
+      playerOne.current === 'X'
     }
-  }
+}
 }
 
 
@@ -22,23 +22,9 @@ const keepTrack = () => {
 
 
 registerOnclick((x, y) => {
-  drawText(playerOne, x, y, 'blue', Math.min(width, height) * 0.3);
+  drawText(playerOne.current, x, y, 'blue', Math.min(width, height) * 0.3);
   keepTrack()
 });
-
-const ticTacToe = () => {
-  let currentTurn = 0;
-  for (let x = 0; x < 9; x++) {
-    if ((currentTurn + 2) % 2 === 0) {
-
-    } else {
-      registerOnclick((x, y) => {
-        drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
-        keepTrack();
-      });
-    }
-  }
-};
 
 
 
