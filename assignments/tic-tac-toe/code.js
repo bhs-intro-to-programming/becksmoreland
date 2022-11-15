@@ -42,8 +42,5 @@ const ticTacToe = () => {
 
 
 
-const currentPos = [
-  [],
-  [],
-  [],
-]; 
+
+ drawLine(10, 20, 10, 20, black, 1)
