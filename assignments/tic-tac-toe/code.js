@@ -14,6 +14,7 @@ const keepTrack = () => {
     } else {
       playerOne.current === 'X'
     }
+    return x;
 }
 }
 
