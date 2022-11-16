@@ -25,3 +25,12 @@ const evens = (array) => {
   }
   return newArray;
 }
+
+const anyOverOneHundred = (array) => {
+  for (let x = 0; x < array.length; x++) {
+    if (array[x] > 100) {
+      return True;
+    }
+  }
+  return False;
+}
