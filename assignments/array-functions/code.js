@@ -15,3 +15,13 @@ const sum = (array) => {
   }
   return total;
 }
+
+const evens = (array) => {
+  let newArray = [];
+  for (let x = 0; x < array.length; x++) {
+    if ((array[x] + 2) % 2 === 0) {
+      newArray.push(array[x])
+    }
+  }
+  return newArray;
+}
