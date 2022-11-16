@@ -7,3 +7,11 @@ const countTens = (array) => {
   }
   return totalTens;
 }
+
+const sum = (array) => {
+  let total = 0;
+  for (let x = 0; x < array.length; x++) {
+    total = total + array[x];
+  }
+  return total;
+}
