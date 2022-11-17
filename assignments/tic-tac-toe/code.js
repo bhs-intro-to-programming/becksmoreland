@@ -24,7 +24,11 @@ const keepTrack = () => {
 
 
 registerOnclick((x, y) => {
-  drawText(currentLetter, x, y, 'blue', Math.min(width, height) * 0.3);
+  if (playerOne % 2 === 0) {
+  drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
+  } else {
+      drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
+  }
   playerOne++
 });
 
