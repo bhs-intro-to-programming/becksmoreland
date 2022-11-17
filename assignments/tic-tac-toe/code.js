@@ -16,13 +16,7 @@ const currentPos = () => {
 
 registerOnclick((x, y) => {
 let playerOne = 0;
-let currentLetter = '';
 
-if (playerOne % 2 === 0) {
-  currentLetter = 'X'
-} else {
-  currentLetter ='O'
-}
 
   if (playerOne % 2 === 0) {
     drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
