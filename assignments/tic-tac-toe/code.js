@@ -16,25 +16,32 @@ const keepTrack = () => {
     } else {
       playerOne.current === 'X'
     }
+  }
 }
+
+const currentPos = () => {
+  [
+    [], [], [],
+    [], [], [],
+    [], [], [],
+  ]
 }
-
-
-
 
 
 registerOnclick((x, y) => {
   if (playerOne % 2 === 0) {
-  drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
   } else {
-      drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
   }
+
+  if (x )
   playerOne++
 });
 
 
 
-
+const ticTacToeBoard = () => {
 drawLine(150, height / 3, 400, height / 3, 'black');
 
 drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black');
@@ -42,5 +49,7 @@ drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black');
 drawLine(width / 3, 0, width / 3, 200, 'black');
 
 drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black');
+};
 
+ticTacToeBoard
 keepTrack()
