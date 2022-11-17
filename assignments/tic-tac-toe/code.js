@@ -18,7 +18,7 @@ registerOnclick((x, y) => {
 
 
   if (playerOne % 2 === 0) {
-    drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText('X', x - 50, y - 50, 'blue', Math.min(width, height) * 0.3);
   } else {
     drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
   }
