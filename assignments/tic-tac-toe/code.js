@@ -12,6 +12,7 @@ let currentPos = () => {
     [''], [''], [''],
   ]
 }
+
 let playerOne = 0;
 
 registerOnclick((x, y) => {
