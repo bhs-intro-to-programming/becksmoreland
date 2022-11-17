@@ -55,3 +55,4 @@ drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black'); // Right Vertical
 
 ticTacToeBoard()
 keepTrack()
+console.log(currentPos()) 
