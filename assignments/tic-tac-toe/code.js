@@ -51,5 +51,5 @@ drawLine(width / 3, 0, width / 3, 200, 'black');
 drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black');
 };
 
-ticTacToeBoard
+ticTacToeBoard()
 keepTrack()
