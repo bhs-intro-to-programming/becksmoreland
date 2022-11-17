@@ -16,6 +16,12 @@ let playerOne = 0;
 
 registerOnclick((x, y) => {
 
+  if ((x < width / 3) && (y < height / 3)) {
+    currentPos[1][1] = 'X';
+  } else if (x) {
+
+  }
+
 
   if (playerOne % 2 === 0) {
     drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
