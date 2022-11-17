@@ -5,8 +5,6 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
-let playerOne = 0;
-
 const currentPos = () => {
   [
     [], [], [],
@@ -17,11 +15,21 @@ const currentPos = () => {
 
 
 registerOnclick((x, y) => {
+let playerOne = 0;
+let currentLetter = '';
+
+if (playerOne % 2 === 0) {
+  currentLetter = 'X'
+}
+
   if (playerOne % 2 === 0) {
-    drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText(currentLetter, x, y, 'blue', Math.min(width, height) * 0.3);
   } else {
-    drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText(currentLetter, x, y, 'blue', Math.min(width, height) * 0.3);
   }
+
+
+  
   playerOne++
 
   if ((x < width / 3) && (y < height / 3)) {
