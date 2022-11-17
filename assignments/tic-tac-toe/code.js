@@ -35,20 +35,22 @@ registerOnclick((x, y) => {
     drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
   }
 
-  if (x )
+  if ((x < width / 3) && (y < height / 3)) {
+    currentPos[1][1] === 'X';
+  }
   playerOne++
 });
 
 
 
 const ticTacToeBoard = () => {
-drawLine(150, height / 3, 400, height / 3, 'black'); // Top Middle
+drawLine(150, height / 3, 400, height / 3, 'black'); // Top Horizontal
 
 drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black'); // Bottom Horizontal
 
+drawLine(width / 3, 0, width / 3, 200, 'black'); // Left Vertical
 
-
-drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black');
+drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black'); // Right Vertical
 };
 
 ticTacToeBoard()
