@@ -25,9 +25,9 @@ if (playerOne % 2 === 0) {
 }
 
   if (playerOne % 2 === 0) {
-    drawText(currentLetter, x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText('X', x, y, 'blue', Math.min(width, height) * 0.3);
   } else {
-    drawText(currentLetter, x, y, 'blue', Math.min(width, height) * 0.3);
+    drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
   }
 
 
