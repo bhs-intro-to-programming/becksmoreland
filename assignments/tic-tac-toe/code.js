@@ -20,6 +20,8 @@ let currentLetter = '';
 
 if (playerOne % 2 === 0) {
   currentLetter = 'X'
+} else {
+  currentLetter ='O'
 }
 
   if (playerOne % 2 === 0) {
