@@ -35,7 +35,7 @@ if (playerOne % 2 === 0) {
   playerOne++
 
   if ((x < width / 3) && (y < height / 3)) {
-    currentPos[1][1] === 'X';
+    currentPos[1][1] = 'X';
   }
 });
 
