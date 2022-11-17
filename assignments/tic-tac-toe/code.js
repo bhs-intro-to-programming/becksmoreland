@@ -7,8 +7,6 @@
 
 let playerOne = 0;
 
-let currentLetter = 'X';
-
 const currentPos = () => {
   [
     [], [], [],
