@@ -9,16 +9,6 @@ let playerOne = 0;
 
 let currentLetter = 'X';
 
-const keepTrack = () => {
-  for (let x = 0; x < 9; x++) {
-    if ((playerOne + 2) % 2 === 0) {
-      currentLetter = 'O'
-    } else {
-      playerOne.current === 'X'
-    }
-  }
-}
-
 const currentPos = () => {
   [
     [], [], [],
@@ -44,13 +34,13 @@ registerOnclick((x, y) => {
 
 
 const ticTacToeBoard = () => {
-drawLine(150, height / 3, 400, height / 3, 'black'); // Top Horizontal
+  drawLine(150, height / 3, 400, height / 3, 'black'); // Top Horizontal
 
-drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black'); // Bottom Horizontal
+  drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black'); // Bottom Horizontal
 
-drawLine(width / 3, 0, width / 3, 200, 'black'); // Left Vertical
+  drawLine(width / 3, 0, width / 3, 200, 'black'); // Left Vertical
 
-drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black'); // Right Vertical
+  drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black'); // Right Vertical
 };
 
 ticTacToeBoard()
