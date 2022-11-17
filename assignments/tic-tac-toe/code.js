@@ -42,9 +42,9 @@ registerOnclick((x, y) => {
 
 
 const ticTacToeBoard = () => {
-drawLine(150, height / 3, 400, height / 3, 'black');
-
  //
+
+drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black'); // Bottom Horizontal
 
 drawLine(width / 3, 0, width / 3, 200, 'black');
 
