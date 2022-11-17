@@ -12,10 +12,9 @@ const currentPos = () => {
     [], [], [],
   ]
 }
-
+let playerOne = 0;
 
 registerOnclick((x, y) => {
-let playerOne = 0;
 
 
   if (playerOne % 2 === 0) {
