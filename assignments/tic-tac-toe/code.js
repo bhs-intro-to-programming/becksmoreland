@@ -24,7 +24,7 @@ registerOnclick((x, y) => {
     drawText('O', x, y, 'blue', Math.min(width, height) * 0.3);
   }
 
-  if ((x < width / 3) && (y < height / 3)) {
+  if ((x < width / 3) && (y > height / 3)) {
     currentPos[1][1] = 'X';
   } else if ((x > width / 3 && x < width / 3 + 100) && y > height / 3) {
     currentPos[1][2] = 'O';
