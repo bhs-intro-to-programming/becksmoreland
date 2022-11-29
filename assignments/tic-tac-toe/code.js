@@ -46,7 +46,7 @@ registerOnclick((x, y) => {
     currentPos[2][2] = 'X';
   } else if (x > width / 3 + 100 && y < height / 3 && y > height / 3 + 20) {
     currentPos[2][3] = 'O';
-  }
+  } else if ()
 });
 
 
