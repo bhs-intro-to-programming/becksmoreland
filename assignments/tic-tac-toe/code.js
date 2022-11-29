@@ -38,6 +38,8 @@ registerOnclick((x, y) => {
     currentPos[1][1] = 'X';
   } else if (x > width / 3 && x < width / 3 + 100 && y > height / 3 - 20 ) {
     currentPos[1][2] = 'O';
+  } else if (x > width / 3 + 100 && y > height / 3) {
+    currentPos[1][3] = 'X'
   }
 });
 
