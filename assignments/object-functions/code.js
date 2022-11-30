@@ -21,7 +21,7 @@ const midpoint = (pObject, pObject2) => {
 const sumSalaries = (array) => {
   let totalSalaries = 0;
   for (let x = 0; x < array.length; x++) {
-    totalSalaries = totalSalaries + array[x][salary]
+    totalSalaries = totalSalaries + array[x]["salary"]
   }
   return totalSalaries;
 }
