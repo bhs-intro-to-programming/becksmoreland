@@ -10,7 +10,7 @@ let currentPos =
     ['', '', ''],
     ['', '', ''],
     ['', '', ''],
-  ]
+  ];
 
 
 let playerOne = 0;
