@@ -13,3 +13,7 @@ const emptyObject = () => {
 const distance = (pObject, pObject2) => {
   return Math.sqrt((pObject.x - pObject2.x) ** 2 + (pObject.y - pObject2.y) ** 2)
 }
+
+const midpoint = (pObject, pObject2) => {
+  return (pObject.x + pObject2.x / 2) + (pObject.y + pObject2.y / 2);
+}
