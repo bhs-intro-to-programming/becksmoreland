@@ -15,5 +15,5 @@ const distance = (pObject, pObject2) => {
 }
 
 const midpoint = (pObject, pObject2) => {
-  return (pObject.x + pObject2.x / 2) + (pObject.y + pObject2.y / 2);
+  return {x : pObject.x + pObject2.x / 2, y : pObject.y + pObject2.y / 2};
 }
