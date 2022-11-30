@@ -17,3 +17,10 @@ const distance = (pObject, pObject2) => {
 const midpoint = (pObject, pObject2) => {
   return {x : (pObject.x + pObject2.x) / 2, y : (pObject.y + pObject2.y) / 2};
 }
+
+const sumSalaries = (array) => {
+  let totalSalaries = 0;
+  for (let x = 0; x < array.length; x++) {
+    totalSalaries = totalSalaries + array[x][salary]
+  }
+}
