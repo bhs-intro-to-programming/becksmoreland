@@ -21,7 +21,7 @@ const midpoint = (pObject, pObject2) => {
 const sumSalaries = (array) => {
   let totalSalaries = 0;
   for (let x = 0; x < array.length; x++) {
-    totalSalaries = totalSalaries + array[x]["salary"]
+    totalSalaries = totalSalaries + array[x].salary
   }
   return totalSalaries;
 }
@@ -29,8 +29,8 @@ const sumSalaries = (array) => {
 const newHighScore = (currentScore, array) => {
   let newScore = currentScore;
   for (let x = 0; x < array.length; x++) {
-    if (newScore < array[x]["score"]) {
-      newScore = array[x]["score"];
+    if (newScore < array[x].score) {
+      newScore = array[x].score;
     }
   }
   return newScore;
