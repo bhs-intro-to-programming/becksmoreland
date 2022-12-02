@@ -1,46 +1,46 @@
 const countTens = (array) => {
-  let tensCount = 0;
-  for (let x = 0; x <= array.length; x++) {
+  let totalTens = 0
+  for (let x = 0; x < array.length; x++) {
     if (array[x] === 10) {
-      tensCount++;
+      totalTens = totalTens + 1;
     }
   }
-  return tensCount;
+  return totalTens;
 }
 
 const sum = (array) => {
-  let totalSum = 0;
+  let total = 0;
   for (let x = 0; x < array.length; x++) {
-    totalSum = totalSum + array[x];
-  } 
-  return totalSum;
+    total = total + array[x];
+  }
+  return total;
 }
 
 const evens = (array) => {
   let newArray = [];
   for (let x = 0; x < array.length; x++) {
-    if (array[x] % 2 === 0) {
+    if ((array[x] + 2) % 2 === 0) {
       newArray.push(array[x])
     }
   }
-  return newArray
+  return newArray;
 }
 
 const anyOverOneHundred = (array) => {
   for (let x = 0; x < array.length; x++) {
     if (array[x] > 100) {
       return true;
-    } 
+    }
   }
   return false;
 }
 
 const pyramid = (integer) => {
-  let newArray = []
+  let pyramidArray = [];
   for (let y = 0; y < integer + 1; y++) {
     for (let x = 0; x < y; x++) {
-    newArray.push(y)
+    pyramidArray.push(y)
     }
   }
-  return newArray;
+  return pyramidArray;
 }
