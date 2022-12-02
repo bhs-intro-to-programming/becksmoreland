@@ -17,7 +17,7 @@ const whitePieces = {'WhiteKing' : '♔', 'WhiteQueen' : '♕', 'WhiteRook' : '�
 
 // Example of drawing one of the pieces
 const wKing = () => {
-  drawText(WHITE_KING, width/2, height/2 + 100, 'black', 64);
+  drawText(whitePieces.WhiteKing, width/2, height/2 + 100, 'black', 64);
 }
 
 const wQueen = (space) => {
