@@ -71,7 +71,7 @@ const chessBoard = [
   [],
   [],
   [],
-  [wRook(146), wKnight(150), wBishop(100), wQueen(50), wKing(), wBishop(- 50), wKnight( - 100), wRook( - 150)]
+  [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(), wBishop(- 40), wKnight( - 75), wRook( - 115)]
 ]
 
 
