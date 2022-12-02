@@ -19,6 +19,10 @@ const blackPieces = {'BlackRook' :'♜', 'BlackKing' : '♚', 'BlackQueen' : '�
 const whitePieces = {'WhiteKing' : '♔', 'WhiteQueen' : '♕', 'WhiteRook' : '♖', 'WhiteBishop' : '♗', 'WhiteKnight' : '♘', 'WhitePawn' : '♙'}
 
 // Example of drawing one of the pieces
+const bPawn = () => {
+  drawText(blackPieces.BlackPawn, width/2, height/2 + 100, 'black', 50);
+}
+
 const wKing = () => {
   drawText(whitePieces.WhiteKing, width/2, height/2 + 100, 'black', 50);
 }
