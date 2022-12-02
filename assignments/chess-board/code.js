@@ -40,19 +40,19 @@ const wBishop = (space) => {
 }
 
 const bKing = () => {
-  drawText(blackPieces.BlackKing, width/2, height/2 - 75, 'black', 50);
+  drawText(blackPieces.BlackKing, width/2, height/2 - 115, 'black', 50);
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 75, 'black', 50)
+  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 115, 'black', 50)
 }
 
 const bBishop = (space) => {
-  drawText(blackPieces.BlackBishop, width/2 - space, height/2 - 75, 'black', 50)
+  drawText(blackPieces.BlackBishop, width/2 - space, height/2 - 115, 'black', 50)
 }
 
 const bKnight = (space) => {
-    drawText(blackPieces.BlackKnight, width/2 - space, height/2 - 75, 'black', 50)
+    drawText(blackPieces.BlackKnight, width/2 - space, height/2 - 115, 'black', 50)
 }
 
 const bRook = (space) => {
