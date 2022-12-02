@@ -56,7 +56,7 @@ const bKnight = (space) => {
 }
 
 const bRook = (space) => {
-    drawText(blackPieces.BlackRook, width/2 - space, height/2 - 75, 'black', 50)
+    drawText(blackPieces.BlackRook, width/2 - space, height/2 - 50, 'black', 50)
 }
 
 const chessBoard = [
