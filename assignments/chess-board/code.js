@@ -54,8 +54,15 @@ const chessBoard = [
   [wRook(200), wKnight(150), wBishop(100), wQueen(50), wKing(), wBishop(- 50), wKnight( - 100), wRook( - 150)]
 ]
 
-const chessBoardDraw = () => {
-  for (let x = 1; x < 64; x++) {
-
+const checkerboard = (n, color1, color2) => {
+  const bigSquareSide = Math.min(width, height)
+  const squareSide = bigSquareSide / n
+  const widthExtra = (width - bigSquareSide) / 2
+  const heightExtra = (height - bigSquareSide) / 2
+  drawFilledRect(Math.max(widthExtra, heightExtra), 0, bigSquareSide, bigSquareSide, color1)
+  for (let i = 0; i < n; i++) {
+    for (let j = i % 2; j < n; j += 2) {
+      drawFilledRect(j * squareSide + widthExtra, i * squareSide + heightExtra, squareSide, squareSide, color2)
+    }
   }
 }
