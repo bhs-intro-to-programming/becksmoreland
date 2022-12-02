@@ -66,3 +66,5 @@ const checkerboard = (n, color1, color2) => {
     }
   }
 }
+
+checkerboard(9, 'black', 'white')
