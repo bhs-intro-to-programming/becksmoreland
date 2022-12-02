@@ -1,5 +1,3 @@
-
-
 const blackPieces = {'BlackRook' :'♜', 'BlackKing' : '♚', 'BlackQueen' : '♛', 'BlackBishop' :'♝', 'BlackKnight' : '♞', 'BlackPawn' : '♟'}
 
 const whitePieces = {'WhiteKing' : '♔', 'WhiteQueen' : '♕', 'WhiteRook' : '♖', 'WhiteBishop' : '♗', 'WhiteKnight' : '♘', 'WhitePawn' : '♙'}
