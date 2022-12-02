@@ -48,7 +48,7 @@ const bKing = () => {
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 120, 'black', 50)
+  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 100, 'black', 50)
 }
 
 const bBishop = (space) => {
