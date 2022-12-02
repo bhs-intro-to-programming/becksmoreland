@@ -23,8 +23,8 @@ const bPawn = (space) => {
   drawText(blackPieces.BlackPawn, width/2 - space, height/2 - 120, 'black', 50)
 }
 
-const wKing = () => {
-  drawText(whitePieces.WhiteKing, width/2, height/2 + 145, 'black', 50);
+const wKing = (space) => {
+  drawText(whitePieces.WhiteKing, width/2 - space, height/2 + 145, 'black', 50);
 }
 
 const wQueen = (space) => {
@@ -43,8 +43,8 @@ const wBishop = (space) => {
   drawText(whitePieces.WhiteBishop, width/2 - space, height/2 + 145, 'black', 50);
 }
 
-const bKing = () => {
-  drawText(blackPieces.BlackKing, width/2, height/2 - 120, 'black', 50);
+const bKing = (space) => {
+  drawText(blackPieces.BlackKing, width/2 - space, height/2 - 120, 'black', 50);
 }
 
 const bQueen = (space) => {
