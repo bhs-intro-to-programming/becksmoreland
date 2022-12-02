@@ -11,7 +11,7 @@ const checkerboard = (n, color1, color2) => {
   }
 }
 
-checkerboard(8, 'black', 'white')
+checkerboard(8, 'red', 'blue')
 
 
 const blackPieces = {'BlackRook' :'♜', 'BlackKing' : '♚', 'BlackQueen' : '♛', 'BlackBishop' :'♝', 'BlackKnight' : '♞', 'BlackPawn' : '♟'}
