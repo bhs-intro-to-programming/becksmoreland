@@ -57,12 +57,18 @@ const bRook = (space) => {
 }
 
 const chessBoard = [
-  [bRook(200)], [bKnight(150)], [bBishop(100)], [bQueen(50)], [bKing()], [bBishop(- 50)], [bKnight(- 100)], [bRook(-150)],
-  [], [], [], [], [], [], [], [],
-  [], [], [], [], [], [], [], [],
-  [], [], [], [], [], [], [], [],
-  [], [], [], [], [], [], [], [],
-  [], [], [], [], [], [], [], [],
-  [], [], [], [], [], [], [], [],
-  [wRook(200)], [wKnight(150)], [wBishop(100)], [wQueen(50)], [wKing()], [wBishop(- 50)], [wKnight( - 100)], [wRook( - 150)],
+  [bRook(200), bKnight(150), bBishop(100), bQueen(50), bKing(), bBishop(- 50), bKnight(- 100), bRook(-150)],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [wRook(200), wKnight(150), wBishop(100), wQueen(50), wKing(), wBishop(- 50), wKnight( - 100), wRook( - 150)]
 ]
+
+const chessBoard = () => {
+  for (let x = 1; x < 64; x++) {
+    
+  }
+}
