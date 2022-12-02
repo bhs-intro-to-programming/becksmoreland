@@ -44,19 +44,19 @@ const bKing = () => {
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 115, 'black', 50)
+  drawText(blackPieces.BlackQueen, width/2 - space, height/2 - 120, 'black', 50)
 }
 
 const bBishop = (space) => {
-  drawText(blackPieces.BlackBishop, width/2 - space, height/2 - 115, 'black', 50)
+  drawText(blackPieces.BlackBishop, width/2 - space, height/2 - 120, 'black', 50)
 }
 
 const bKnight = (space) => {
-    drawText(blackPieces.BlackKnight, width/2 - space, height/2 - 115, 'black', 50)
+    drawText(blackPieces.BlackKnight, width/2 - space, height/2 - 120, 'black', 50)
 }
 
 const bRook = (space) => {
-    drawText(blackPieces.BlackRook, width/2 - space, height/2 - 115, 'black', 50)
+    drawText(blackPieces.BlackRook, width/2 - space, height/2 - 120, 'black', 50)
 }
 
 const chessBoard = [
