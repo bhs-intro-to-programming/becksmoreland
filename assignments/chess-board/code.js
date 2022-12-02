@@ -60,7 +60,7 @@ const bRook = (space) => {
 }
 
 const chessBoard = [
-  [bRook(146), bKnight(110), bBishop(85), bQueen(50), bKing(), bBishop(- 50), bKnight(- 100), bRook(-150)],
+  [bRook(146), bKnight(110), bBishop(80), bQueen(50), bKing(), bBishop(- 50), bKnight(- 100), bRook(-150)],
   [],
   [],
   [],
