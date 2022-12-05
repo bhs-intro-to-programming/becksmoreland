@@ -19,6 +19,10 @@ const blackPieces = {'BlackRook' :'♜', 'BlackKing' : '♚', 'BlackQueen' : '�
 const whitePieces = {'WhiteKing' : '♔', 'WhiteQueen' : '♕', 'WhiteRook' : '♖', 'WhiteBishop' : '♗', 'WhiteKnight' : '♘', 'WhitePawn' : '♙'}
 
 // Example of drawing one of the pieces
+const wPawn = (space) => {
+  drawText(whitePieces.WhitePawn, width/2 - space, height/2 + 60, 'black', 50)
+}
+
 const bPawn = (space) => {
   drawText(blackPieces.BlackPawn, width/2 - space, height/2 - 77, 'black', 50)
 }
@@ -70,7 +74,7 @@ const chessBoard = [
   [],
   [],
   [],
-  [],
+  [wPawn(146), wPawn(110), wPawn(70), wPawn(34), wPawn(-5), wPawn(-40), wPawn(-75), wPawn(-115)],
   [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(- 5), wBishop(- 40), wKnight( - 75), wRook( - 115)]
 ]
 
