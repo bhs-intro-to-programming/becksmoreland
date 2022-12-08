@@ -79,7 +79,9 @@ const chessBoard = [
 ]
 
 const testFunc = () => {
+  let count = 0
   for (let x = 0; x < 100; x++) {
-    console.log(x)
+    count = count + 1;
   }
+  return count;
 }
