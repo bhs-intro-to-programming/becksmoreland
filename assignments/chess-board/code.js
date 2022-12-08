@@ -79,12 +79,7 @@ const chessBoard = [
 ]
 
 const testFunc = () => {
-  let num = 30
-  if (num < 30) {
-    console.log('yes')
-  } else {
-    console.log('no')
+  for (let x = 0; x < 100; x++) {
+    console.log(x)
   }
 }
-
-testFunc()
