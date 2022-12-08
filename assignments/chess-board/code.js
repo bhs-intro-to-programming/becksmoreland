@@ -24,7 +24,7 @@ const wPawn = (space) => {
 }
 
 const bPawn = (space) => {
-  drawText(blackPieces.Pawn, width / 2 - space, height / 2 - 63, 'black', 35)
+  drawText(blackPieces.Pawn, width / 2 - space, height / 2 - 57, 'black', 35)
 }
 
 const wKing = (space) => {
