@@ -14,57 +14,57 @@ const checkerboard = (n, color1, color2) => {
 checkerboard(8, 'red', 'blue')
 
 
-const blackPieces = {'Rook' :'♜', 'King' : '♚', 'Queen' : '♛', 'Bishop' :'♝', 'Knight' : '♞', 'Pawn' : '♟'}
+const blackPieces = { 'Rook': '♜', 'King': '♚', 'Queen': '♛', 'Bishop': '♝', 'Knight': '♞', 'Pawn': '♟' }
 
-const whitePieces = {'King' : '♔', 'Queen' : '♕', 'Rook' : '♖', 'Bishop' : '♗', 'Knight' : '♘', 'Pawn' : '♙'}
+const whitePieces = { 'King': '♔', 'Queen': '♕', 'Rook': '♖', 'Bishop': '♗', 'Knight': '♘', 'Pawn': '♙' }
 
 // Example of drawing one of the pieces
 const wPawn = (space) => {
-  drawText(whitePieces.Pawn, width/2 - space, height/2 + 105, 'black', 50)
+  drawText(whitePieces.Pawn, width / 2 - space, height / 2 + 105, 'black', 50)
 }
 
 const bPawn = (space) => {
-  drawText(blackPieces.Pawn, width/2 - space, height/2 - 77, 'black', 50)
+  drawText(blackPieces.Pawn, width / 2 - space, height / 2 - 77, 'black', 50)
 }
 
 const wKing = (space) => {
-  drawText(whitePieces.King, width/2 - space, height/2 + 145, 'black', 50);
+  drawText(whitePieces.King, width / 2 - space, height / 2 + 145, 'black', 50);
 }
 
 const wQueen = (space) => {
-   drawText(whitePieces.Queen, width/2 - space, height/2 + 145, 'black', 50);
+  drawText(whitePieces.Queen, width / 2 - space, height / 2 + 145, 'black', 50);
 }
 
 const wRook = (space) => {
-   drawText(whitePieces.Rook, width/2 - space, height/2 + 145, 'black', 50);
+  drawText(whitePieces.Rook, width / 2 - space, height / 2 + 145, 'black', 50);
 }
 
 const wKnight = (space) => {
-  drawText(whitePieces.Knight, width/2 - space, height/2 + 145, 'black', 50);
+  drawText(whitePieces.Knight, width / 2 - space, height / 2 + 145, 'black', 50);
 }
 
 const wBishop = (space) => {
-  drawText(whitePieces.Bishop, width/2 - space, height/2 + 145, 'black', 50);
+  drawText(whitePieces.Bishop, width / 2 - space, height / 2 + 145, 'black', 50);
 }
 
 const bKing = (space) => {
-  drawText(blackPieces.King, width/2 - space, height/2 - 119, 'black', 50);
+  drawText(blackPieces.King, width / 2 - space, height / 2 - 119, 'black', 50);
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.Queen, width/2 - space, height/2 - 119, 'black', 50)
+  drawText(blackPieces.Queen, width / 2 - space, height / 2 - 119, 'black', 50)
 }
 
 const bBishop = (space) => {
-  drawText(blackPieces.Bishop, width/2 - space, height/2 - 119, 'black', 50)
+  drawText(blackPieces.Bishop, width / 2 - space, height / 2 - 119, 'black', 50)
 }
 
 const bKnight = (space) => {
-    drawText(blackPieces.Knight, width/2 - space, height/2 - 119, 'black', 50)
+  drawText(blackPieces.Knight, width / 2 - space, height / 2 - 119, 'black', 50)
 }
 
 const bRook = (space) => {
-    drawText(blackPieces.Rook, width/2 - space, height/2 - 119, 'black', 50)
+  drawText(blackPieces.Rook, width / 2 - space, height / 2 - 119, 'black', 50)
 }
 
 const chessBoard = [
@@ -75,15 +75,14 @@ const chessBoard = [
   [],
   [],
   [wPawn(146), wPawn(110), wPawn(70), wPawn(34), wPawn(-5), wPawn(-40), wPawn(-75), wPawn(-115)],
-  [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(- 5), wBishop(- 40), wKnight( - 75), wRook( - 115)]
+  [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(- 5), wBishop(- 40), wKnight(- 75), wRook(- 115)]
 ]
 
 const testFunc = () => {
-  let count = 0
-  for (let x = 0; x < 100; x++) {
-    count = count + 1;
+  let count = 0;
+  for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 4; j++) {
+      count = count + 1;
+    }
   }
-  return console.log(count);
 }
-
-testFunc()
