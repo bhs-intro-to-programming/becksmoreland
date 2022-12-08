@@ -52,15 +52,15 @@ const bKing = (space) => {
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.Queen, width / 2 - space, height / 2 - 119, 'black', 35)
+  drawText(blackPieces.Queen, width / 2 - space, height / 2 - 89, 'black', 35)
 }
 
 const bBishop = (space) => {
-  drawText(blackPieces.Bishop, width / 2 - space, height / 2 - 119, 'black', 35)
+  drawText(blackPieces.Bishop, width / 2 - space, height / 2 - 89, 'black', 35)
 }
 
 const bKnight = (space) => {
-  drawText(blackPieces.Knight, width / 2 - space, height / 2 - 119, 'black', 35)
+  drawText(blackPieces.Knight, width / 2 - space, height / 2 - 89, 'black', 35)
 }
 
 const bRook = (space) => {
