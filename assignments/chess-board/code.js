@@ -36,7 +36,7 @@ const wQueen = (space) => {
 }
 
 const wRook = (space) => {
-  drawText(whitePieces.Rook, width / 2 - space, height / 2 + 145, 'black', 50);
+  drawText(whitePieces.Rook, width / 2 - space, height / 2 + 50, 'black', 50);
 }
 
 const wKnight = (space) => {
@@ -78,14 +78,3 @@ const chessBoard = [
   [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(- 5), wBishop(- 40), wKnight(- 75), wRook(- 115)]
 ]
 
-const testFunc = () => {
-  let count = 0;
-  for (let i = 0; i < 5; i++) {
-    for (let j = 0; j < 4; j++) {
-      count = count + 1;
-    }
-  }
-  console.log(count)
-}
-
-testFunc()
