@@ -40,7 +40,7 @@ const wRook = (space) => {
 }
 
 const wKnight = (space) => {
-  drawText(whitePieces.Knight, width / 2 - space, height / 2 + 145, 'black', 50);
+  drawText(whitePieces.Knight, width / 2 - space, height / 2 + 145, 'black', 30);
 }
 
 const wBishop = (space) => {
