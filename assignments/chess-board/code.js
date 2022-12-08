@@ -85,3 +85,5 @@ const testFunc = () => {
   }
   return count;
 }
+
+testFunc()
