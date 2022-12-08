@@ -36,7 +36,7 @@ const wQueen = (space) => {
 }
 
 const wRook = (space) => {
-  drawText(whitePieces.Rook, width / 2 - space, height / 2 + 50, 'black', 50);
+  drawText(whitePieces.Rook, width / 2 - space, height / 2 + 50, 'black', 30);
 }
 
 const wKnight = (space) => {
