@@ -20,7 +20,7 @@ const whitePieces = { 'King': '♔', 'Queen': '♕', 'Rook': '♖', 'Bishop': '�
 
 // Example of drawing one of the pieces
 const wPawn = (space) => {
-  drawText(whitePieces.Pawn, width / 2 - space, height / 2 + 105, 'black', 50)
+  drawText(whitePieces.Pawn, width / 2 - space, height / 2 + 120, 'black', 50)
 }
 
 const bPawn = (space) => {
