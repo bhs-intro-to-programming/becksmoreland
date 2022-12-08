@@ -87,3 +87,5 @@ const testFunc = () => {
   }
   console.log(count)
 }
+
+testFunc()
