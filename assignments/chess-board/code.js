@@ -83,7 +83,7 @@ const testFunc = () => {
   for (let x = 0; x < 100; x++) {
     count = count + 1;
   }
-  return count;
+  return console.log(count);
 }
 
 testFunc()
