@@ -48,11 +48,11 @@ const wBishop = (space) => {
 }
 
 const bKing = (space) => {
-  drawText(blackPieces.King, width / 2 - space, height / 2 - 89, 'black', 35);
+  drawText(blackPieces.King, width / 2 - space, height / 2 - 85, 'black', 35);
 }
 
 const bQueen = (space) => {
-  drawText(blackPieces.Queen, width / 2 - space, height / 2 - 89, 'black', 35)
+  drawText(blackPieces.Queen, width / 2 - space, height / 2 - 85, 'black', 35)
 }
 
 const bBishop = (space) => {
@@ -60,11 +60,11 @@ const bBishop = (space) => {
 }
 
 const bKnight = (space) => {
-  drawText(blackPieces.Knight, width / 2 - space, height / 2 - 89, 'black', 35)
+  drawText(blackPieces.Knight, width / 2 - space, height / 2 - 85, 'black', 35)
 }
 
 const bRook = (space) => {
-  drawText(blackPieces.Rook, width / 2 - space, height / 2 - 89, 'black', 35)
+  drawText(blackPieces.Rook, width / 2 - space, height / 2 - 85, 'black', 35)
 }
 
 const chessBoard = [
