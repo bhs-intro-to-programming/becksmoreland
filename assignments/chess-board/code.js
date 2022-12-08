@@ -28,11 +28,11 @@ const bPawn = (space) => {
 }
 
 const wKing = (space) => {
-  drawText(whitePieces.King, width / 2 - space, height / 2 + 145, 'black', 50);
+  drawText(whitePieces.King, width / 2 - space, height / 2 + 105, 'black', 50);
 }
 
 const wQueen = (space) => {
-  drawText(whitePieces.Queen, width / 2 - space, height / 2 + 145, 'black', 50);
+  drawText(whitePieces.Queen, width / 2 - space, height / 2 + 105, 'black', 50);
 }
 
 const wRook = (space) => {
