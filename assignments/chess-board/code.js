@@ -78,4 +78,12 @@ const chessBoard = [
   [wRook(146), wKnight(110), wBishop(70), wQueen(34), wKing(- 5), wBishop(- 40), wKnight( - 75), wRook( - 115)]
 ]
 
+const testFunc = (num) => {
+  let num = 30
+  if (num < 30) {
+    console.log('yes')
+  } else {
+    console.log('no')
+  }
+}
 
