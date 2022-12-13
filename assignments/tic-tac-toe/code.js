@@ -54,12 +54,12 @@ registerOnclick((x, y) => {
 const ticTacToeBoard = () => {
   for (let i = 0; i < 2; i++) {
     const lines = (i + 1) * width / 3;
-    drawLine(lines, 0, lines, height, 'black', 10)
+    drawLine(lines, 0, lines, height, 'black', 8)
   }
 
    for (let i = 0; i < 2; i++) {
     const lines = (i + 1) * height / 3;
-    drawLine(0, lines, width, lines, 'black', 10)
+    drawLine(0, lines, width, lines, 'black', 8)
   }
 };
 
