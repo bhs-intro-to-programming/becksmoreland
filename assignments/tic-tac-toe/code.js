@@ -52,13 +52,10 @@ registerOnclick((x, y) => {
 
 
 const ticTacToeBoard = () => {
-  drawLine(150, height / 3, 400, height / 3, 'black'); // Top Horizontal
-
-  drawLine(150, height / 3 + 50, 400, height / 3 + 50, 'black'); // Bottom Horizontal
-
-  drawLine(width / 3, 0, width / 3, 200, 'black'); // Left Vertical
-
-  drawLine(width / 3 + 100, 0, width / 3 + 100, 200, 'black'); // Right Vertical
+  for (let i = 0; i < 2; i++) {
+    const lines = (i + 1) * width / 3;
+    drawLine(lines, 0, lines, height, 'black', 10)
+  }
 };
 
 ticTacToeBoard()
