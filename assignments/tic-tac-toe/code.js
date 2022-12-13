@@ -56,6 +56,11 @@ const ticTacToeBoard = () => {
     const lines = (i + 1) * width / 3;
     drawLine(lines, 0, lines, height, 'black', 10)
   }
+
+   for (let i = 0; i < 2; i++) {
+    const lines = (i + 1) * height / 3;
+    drawLine(lines, 0, lines, height, 'black', 10)
+  }
 };
 
 ticTacToeBoard()
