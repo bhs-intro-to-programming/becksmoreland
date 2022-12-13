@@ -27,9 +27,9 @@ let currentPos =
 
 let playerOne = 0;
 
-registerOnclick((x, y) => {
-  let clickedRow = 0;
+let clickedRow = 0;
 
+registerOnclick((x, y) => {
   if (x < width / 3 && y > height / 3 * 2) {
     clickedRow = 1;
   }
