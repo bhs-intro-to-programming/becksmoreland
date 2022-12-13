@@ -17,6 +17,8 @@ let playerOne = 0;
 
 registerOnclick((x, y) => {
 
+  if (x)
+
 
   if (playerOne % 2 === 0) {
     drawText('X', x, y, 'red', Math.min(width, height) * 0.3);
