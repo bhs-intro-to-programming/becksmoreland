@@ -5,6 +5,18 @@
 // is called an anonymous function. We'll discuss this in more detail in a few
 // weeks but for now you can just adapt this code.
 
+const ticTacToeBoard = () => {
+  for (let i = 0; i < 2; i++) {
+    const lines = (i + 1) * width / 3;
+    drawLine(lines, 0, lines, height, 'black', 8)
+  }
+
+   for (let i = 0; i < 2; i++) {
+    const lines = (i + 1) * height / 3;
+    drawLine(0, lines, width, lines, 'black', 8)
+  }
+};
+
 let currentPos = 
   [
     ['', '', ''],
@@ -16,6 +28,7 @@ let currentPos =
 let playerOne = 0;
 
 registerOnclick((x, y) => {
+  let clickedRow = 0;
 
   if (x)
 
@@ -53,17 +66,7 @@ registerOnclick((x, y) => {
 
 
 
-const ticTacToeBoard = () => {
-  for (let i = 0; i < 2; i++) {
-    const lines = (i + 1) * width / 3;
-    drawLine(lines, 0, lines, height, 'black', 8)
-  }
 
-   for (let i = 0; i < 2; i++) {
-    const lines = (i + 1) * height / 3;
-    drawLine(0, lines, width, lines, 'black', 8)
-  }
-};
 
 ticTacToeBoard()
 
