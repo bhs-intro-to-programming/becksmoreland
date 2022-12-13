@@ -30,7 +30,9 @@ let playerOne = 0;
 registerOnclick((x, y) => {
   let clickedRow = 0;
 
-  if (x)
+  if (x < width / 3 && y > height / 3 * 2) {
+    clickedRow = 1;
+  }
 
 
   if (playerOne % 2 === 0) {
