@@ -55,7 +55,7 @@ registerOnclick((x, y) => {
     currentPos[0][0] = 'good';
   } else if (x > width / 3 && x < width / 3 + 100 && y > height / 3 - 20 ) {
     currentPos[0][1] = 'O';
-  } else if (x > width / 3 + 100 && y > height / 3 - 20) {
+  } else if (x > width / 3 && y > height / 3) {
     currentPos[0][2] = 'X';
   } else if (x < width / 3 && y < height / 3 && y > height / 3 + 20) {
     currentPos[1][0] = 'O';
