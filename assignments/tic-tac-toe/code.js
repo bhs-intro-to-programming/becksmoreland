@@ -51,8 +51,8 @@ registerOnclick((x, y) => {
   
   playerOne++
 
-  if ((x < width / 3) && (y > height / 3 - 20)) {
-    currentPos[0][0] = 'X';
+  if ((x < width / 3) && (y > height / 3 * 2)) {
+    currentPos[0][0] = 'good';
   } else if (x > width / 3 && x < width / 3 + 100 && y > height / 3 - 20 ) {
     currentPos[0][1] = 'O';
   } else if (x > width / 3 + 100 && y > height / 3 - 20) {
