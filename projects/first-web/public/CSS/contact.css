@@ -34,8 +34,10 @@ li a.navbar:hover{
     font-family: sans-serif;
 }
 
-.center {
+h2.links {
     text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
 
